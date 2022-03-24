@@ -1,0 +1,229 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.upper{
+    background: linear-gradient(rgb(240, 73, 79),rgb(252, 130, 124));
+  
+    height:600px;
+    width: 100%;
+    padding-top:5%;
+}
+
+.main{
+    
+    width:80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.main-right{
+    
+    width:400px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 35px;
+    margin-right: 5%;
+}
+
+.mid-left{
+    padding-top: 80px;
+    font-size: 55px;
+    width: 30%
+}
+.mid{
+    overflow: hidden;
+}
+.mid-right{
+    -ms-transform: rotate(15deg); /* IE 9 */
+    transform: rotate(15deg);
+    margin-top: 40px;
+    margin-left: 100px;    
+}
+
+.btn{
+    border-style: none;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.mid-white{
+    height:400px;
+    display: flex;
+    justify-content: space-around;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+._11{
+        height: 200px;
+        width: 250px;
+        text-align: center;
+        padding-top: 8%;
+}
+p{
+    font-size: medium;
+}
+
+.icon{
+    color: rgb(228, 109, 109);
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.mid-pink{
+    background-color: rgb(252, 130, 124);
+    height: 650px;
+}
+
+.mid2white{
+    background-color: white;
+    height: 600px;
+}
+.next-pink{
+    background: linear-gradient(rgb(240, 73, 79),rgb(252, 88, 124));
+    height: 350px;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    line-height: 80px;
+    padding-top: 50px;
+}
+
+.next-btn:hover{
+    background-color: white;
+    color:black;
+}
+
+.btn-color{
+    background-color: transparent;
+}
+
+.last-white{
+    height: 500px;
+    background-color: white;
+}
+
+.icons{
+    font-size: 32px;
+    display: flex;
+    justify-content:space-between;
+    width: 300px;
+    margin-left: 40%;
+    padding-top: 100px;
+}
+
+.center{
+   text-align: center;
+}
+
+.puppy-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    height:500px;
+  
+    
+}
+
+.chihua{
+    background-color:white;
+    width: 320px;
+    height:350px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.lab{
+
+    background-color: white;
+    width: 320px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height:350px;
+    
+}
+
+.mastiff{
+    background-color: white;
+    width: 320px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height:350px;
+}
+.name{
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+
+.mid-btn{
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn21:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Slide Show CSS*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  margin-top: -2px;
+  padding: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+  
+
